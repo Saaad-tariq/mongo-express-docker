@@ -4,6 +4,6 @@ mongo:
 mongoexpress:
     image: mongo-express
     ports:
-        - "8081:8081"
+        - "30021:30021"
     links:
         - mongo
