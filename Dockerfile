@@ -4,7 +4,7 @@ FROM node:12-alpine3.11
 
 RUN apk add --no-cache bash tini
 
-EXPOSE 8081
+EXPOSE 30021
 
 # override some config defaults with values that will work better for docker
 ENV ME_CONFIG_EDITORTHEME="default" \
